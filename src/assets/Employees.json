@@ -1,3 +1,4 @@
+
 [
     {
       "id": 1,
@@ -7,8 +8,7 @@
       "gender": "Female",
       "Username": "lbonnick0",
       "Department": "Services",
-      "Avatar":
-        "https://robohash.org/optioaccusamusquam.png?size=500x500&set=set1"
+      "Avatar": "https://robohash.org/optioaccusamusquam.png?size=500x500&set=set1"
     },
     {
       "id": 2,
