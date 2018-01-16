@@ -1,0 +1,40 @@
+.table-content{
+    font-family: Dosis;
+    font-size: 24px;
+
+    border-bottom-color: #6ED0F0;
+    border-bottom-width: 1px;
+}
+
+.table-heading{
+    width: 1342px;
+    height: 60px;
+    background-color: #6ED0F0;
+
+    font-family: Dosis;
+    font-size: 24px;
+    line-height: 30px;
+
+    padding-top: 19px;
+}
+
+.id-format{
+    margin-left: 15px;
+}
+
+.username-format{
+    margin-left: 85px;
+}
+
+.gender-format{
+    margin-left: 120px;
+}
+
+.email-format{
+    margin-left: 120px;
+}
+
+.view-format{
+    margin-left: 110px;
+}
+

@@ -1,3 +1,43 @@
 .grid-block{
-    
+    font-family: dosis;
+
+    width: 208 px;
+    height: 212px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #56CCF2;
+
+    margin-left: 120px;
+    margin-top: 66px;
+
+    float: left;
+    position: relative;
+}
+
+.avatar-block{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: #56CCF2;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 17px;
+
+}
+
+.username-grid{
+    font-size: 24px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.department-grid{
+    font-size: 14px;
+
+    margin-left: auto;
+    margin-right: auto;
 }

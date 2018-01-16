@@ -1,3 +1,14 @@
-<p>
-  employee-list works!
-</p>
+<div class="table-heading">
+  <span class = "id-format">id </span>
+  <span class = "username-format">Username </span>
+  <span class = "gender-format">Gender</span>
+  <span class = "email-format">Email Adress</span>
+</div>
+
+<div *ngFor="let e of employees" class="table-content">
+  <span class = "id-format"> {{e.id}} </span>
+  <span class = "username-format"> {{e.Username}} </span>
+  <span class = "gender-format"> {{e.gender}} </span>
+  <span class = "email-format"> {{e.email}} </span>
+  <span class = "view-format"><a routerLink="#">View Profile</a></span>
+</div>

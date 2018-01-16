@@ -3,7 +3,7 @@
 </p>
 
 <div *ngFor= "let e of employees" class="grid-block">
-  {{e.Avatar}} <br>
-  {{e.Username}} <br>
-  {{e.Department}}
+  <div class="avatar-block">{{e.Avatar}}</div> <br>
+  <div class="username-grid">{{e.Username}}</div> <br>
+  <div class="department-grid">{{e.Department}}</div>
 </div>
