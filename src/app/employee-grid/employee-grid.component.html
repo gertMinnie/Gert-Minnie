@@ -1,3 +1,9 @@
 <p>
   employee-grid works!
 </p>
+
+<div *ngFor= "let e of employees" class="grid-block">
+  {{e.Avatar}} <br>
+  {{e.Username}} <br>
+  {{e.Department}}
+</div>

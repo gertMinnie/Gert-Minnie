@@ -1,4 +1,6 @@
+import { Employee } from './../employee';
 import { Component, OnInit } from '@angular/core';
+import { EmployeeService } from '../employee.service';
 
 @Component({
   selector: 'app-employee-grid',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmployeeGridComponent implements OnInit {
 
-  constructor() { }
+  employees: Employee[];
+
+  getEmployees(){
+    this.employees = this.employeeService.getEmployees();
+  }
+
+  constructor(private employeeService: EmployeeService) { }
 
   ngOnInit() {
+    this.getEmployees();
   }
 
 }
