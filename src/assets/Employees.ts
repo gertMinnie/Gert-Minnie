@@ -1,4 +1,6 @@
+import { Employee } from './../app/employee';
 
+export const EMPLOYEES:Employee[]=
 [
     {
       "id": 1,
